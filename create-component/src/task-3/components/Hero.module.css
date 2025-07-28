@@ -1,0 +1,18 @@
+  /* Hero */
+  .hero {
+    text-align: center;
+    padding: 50px 20px;
+    background: #e3f2fd;
+    margin-bottom: 40px;
+  }
+  
+.hero button {
+    padding: 12px 24px;
+    background-color: #1e88e5;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    margin-top: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }

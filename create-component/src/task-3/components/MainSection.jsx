@@ -4,10 +4,11 @@ import Instructors from './Instructors';
 import Reviews from './Reviews';
 import About from './About';
 
+import styles from "./Main.module.css";
 
 function Main(){
     return(    
-        <main>
+        <main className={styles.main}>
         {/* Hero */}
         <Hero/>
 

@@ -1,8 +1,10 @@
+import styles from "./Trainers.module.css"
+
 function Trainers(){
     return(
-        <section className="trainers">
+        <section className={styles.trainers}>
         <h2>Meet the Trainers</h2>
-        <div className="trainer">
+        <div className={styles.trainer}>
           <img
             src="https://cdn-icons-png.flaticon.com/512/3541/3541871.png"
             alt="Trainer 1"
@@ -10,7 +12,7 @@ function Trainers(){
           <h4>Jessica Power</h4>
           <p>Certified Personal Trainer</p>
         </div>
-        <div className="trainer">
+        <div className={styles.trainer}>
           <img
             src="https://cdn-icons-png.flaticon.com/512/3541/3541871.png"
             alt="Trainer 2"

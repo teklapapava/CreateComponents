@@ -4,6 +4,9 @@ import BlogPosts from './BlogPosts';
 import Testimonials from './Testimonials';
 import Sidebar from './Sidebar';
 
+import styles from "./Sections.module.css";
+
+
 function MainContents(){
     return(
         <main>

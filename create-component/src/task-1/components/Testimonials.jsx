@@ -1,10 +1,12 @@
+import styles from "./Testimonials.module.css";
+
 function Testimonials(){
     return(
-        <section className="testimonials">
+        <section className={styles.testimonials}>
         <h2>What Developers Say</h2>
 
 
-        <div className="testimonial">
+        <div className={styles.testimonial}>
           <img
             src="https://cdn-icons-png.flaticon.com/512/3541/3541871.png"
             alt="User 1"
@@ -16,7 +18,7 @@ function Testimonials(){
         </div>
 
 
-        <div className="testimonial">
+        <div className={styles.testimonial}>
           <img
             src="https://cdn-icons-png.flaticon.com/512/3541/3541871.png"
             alt="User 2"

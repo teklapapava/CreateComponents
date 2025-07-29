@@ -4,6 +4,7 @@ import Trainers from './Trainers';
 import Testimonials from './Testimonials';
 import Sidebar from './Sidebar';
 
+import styles from "./MainSections.module.css";
 
 function MainSection(){
     return(

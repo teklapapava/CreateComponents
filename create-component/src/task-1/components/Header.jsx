@@ -1,7 +1,9 @@
+import styles from "./Header.module.css";
+
 function Header() {
   return (
     <header>
-      <div className="logo">
+      <div>
         <h1>DevConnect</h1>
       </div>
       <nav>

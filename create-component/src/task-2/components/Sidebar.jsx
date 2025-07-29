@@ -1,6 +1,8 @@
+import styles from "./Sidebar.module.css"
+
 function Sidebar(){
     return(
-        <aside className="sidebar">
+        <aside className={styles.sidebar}>
         <h2>About FitLife</h2>
         <p>
           We’re passionate about helping people live healthier lives with

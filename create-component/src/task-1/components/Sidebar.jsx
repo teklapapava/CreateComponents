@@ -1,6 +1,8 @@
+import styles from "./Sidebar.module.css";
+
 function Sidebar() {
   return (
-    <aside className="sidebar">
+    <aside className={styles.sidebar}>
       <h2>About DevConnect</h2>
       <img
         src="https://avatars.githubusercontent.com/u/98865593?s=280&v=4"
